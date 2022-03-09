@@ -1,0 +1,7 @@
+s = 0
+
+for i in range(10,99):
+    s = i % 10 + i // 10
+    if i == s+s*s:
+       print(i)
+       
